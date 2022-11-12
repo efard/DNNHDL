@@ -18,4 +18,4 @@ With default inputs, you will see the results similar to Fig.1\
 ![Fig_1](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
 Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in current folder.\
 You can play with Arbitrary inputs and get your own VHDL file for PLA.
-## NB: If you find this project useful, I will be appreciated it if you cite this repo.
+### NB: If you find this project useful, I will be appreciated it if you cite this repo. I will also happy to hear any suggestions to improve this repo.
