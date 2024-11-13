@@ -1,6 +1,6 @@
 # DNNHDL
 ## Introduction
-The initial aim of this project is to simplify VHDL code generation for DNNs. In this repo, you will learn how to generate a $.vhd$ file for Sigmoid and Tanh functions with the help of Python language. It is somehow a way of Piecewise Linear Approximation (PLA).
+The initial aim of this project is to simplify VHDL code generation for DNNs. In this repo, you will learn how to generate a `.vhd` file for Sigmoid and Tanh functions with the help of Python language. It is somehow a way of Piecewise Linear Approximation (PLA).
 
 ## Prerequisites
 Install Python (The newer, the better!).
