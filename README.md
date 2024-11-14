@@ -1,13 +1,16 @@
 # DNNHDL
 ## Introduction
-This project's initial aim is to simplify VHDL code generation for DNNs. It now covers two techniques for generating hardware-efficient `.vhd` codes for prevalent Activation Functions (AFs), i.e. Sigmoid and Tanh.
+This project's initial goal is to simplify VHDL code generation for DNNs. It now covers techniques for hardware-efficient implementation of prevalent Activation Functions (AFs), i.e. Sigmoid and Tanh.
 
-In the first section, you will learn how to generate a `.vhd` file for Sigmoid and Tanh functions with Python language. This strategy is based on LUT-based AFs and the main functions are transformed to some horizontal lines. The second section is more advanced and based on Piecewise Linear (PWL) approximation technique. at which nonlinear AFs are converted to som
+In the first section, which is based on LUT-based AFs, you will learn how to generate a `.vhd` file for those AFs by Python. The second section is more advanced and based on Piecewise-Linear (PWL) approximation technique.
 
 ## Prerequisites
-Install Python (The newer, the better!).
+Python
+Numpy
+Matplotlib
 
-##LUT-based Activation Functions
+## LUT-based AFs
+In this technique, nonlinear AFs are transformed into straight horizontal lines. This method is famous for its simplicity and computation. However, it lacks enough accuracy and normally its absolute error is higher than other methods with the same number of segments.
 
 ### Steps
 1. Clone the project in a folder and open it.
@@ -21,5 +24,12 @@ With default inputs, you will see results similar to Fig. 1\
 \
 ![Fig_1](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
 Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in current folder.\
-You can play with Arbitrary inputs and get your custom VHDL file for PLA.
-### NB: If you find this project useful, I would appreciate your citing this repo. I will also be happy to hear any suggestions for improving this repo.
+You can play with Arbitrary inputs and get your custom VHDL file.
+
+## PWL-based AFs
+In this strategy, each segment of the main AF is transformed into straight lines and each straight line has its slope and y-intercept. This method is more resource-hungry than LUT-based and gives comparatively higher accuracy instead. `POT_PWL.py` is written scalable and you can change the input interval, number of segments, and input/output bit width. This code gives you the slopes and y-intercepts of the straight lines that can be used to develop a `.vhd` file in FPGA.
+With default inputs, you will see results similar to Fig. 2\
+\
+![Fig_2](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
+
+### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvment.
