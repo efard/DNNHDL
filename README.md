@@ -1,11 +1,15 @@
 # DNNHDL
 ## Introduction
-The initial aim of this project is to simplify VHDL code generation for DNNs. In this repo, you will learn how to generate a `.vhd` file for Sigmoid and Tanh functions with the help of Python language. It is a kind of Piecewise Linear (PWL) Approximation.
+This project's initial aim is to simplify VHDL code generation for DNNs. It now covers two techniques for generating hardware-efficient `.vhd` codes for prevalent Activation Functions (AFs), i.e. Sigmoid and Tanh.
+
+In the first section, you will learn how to generate a `.vhd` file for Sigmoid and Tanh functions with Python language. This strategy is based on LUT-based AFs and the main functions are transformed to some horizontal lines. The second section is more advanced and based on Piecewise Linear (PWL) approximation technique. at which nonlinear AFs are converted to som
 
 ## Prerequisites
 Install Python (The newer, the better!).
 
-## Steps
+##LUT-based Activation Functions
+
+### Steps
 1. Clone the project in a folder and open it.
 2. Set your values in the "Arbitrary inputs" section of the "sig_tanh_gen.py" file.
 3. Run (in Windows):\
