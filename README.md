@@ -27,10 +27,19 @@ Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in 
 You can play with Arbitrary inputs and get your custom VHDL file.
 
 ## PWL-based AFs
-In this strategy, each segment of the main AF is transformed into straight lines and each straight line has its slope and y-intercept. This method is more resource-hungry than LUT-based and gives comparatively higher accuracy instead. `POT_PWL.py` is written scalable and you can change the input interval, number of segments, and input/output bit width. This code gives you the slopes and y-intercepts of the straight lines that can be used to develop a `.vhd` file in FPGA.
+In this strategy, each segment of the main AF is transformed into straight lines and each straight line has its slope and y-intercept. This method is more resource-hungry than LUT-based and gives comparatively higher accuracy instead. `POT_PWL.py` is written scalable and you can change the input interval, number of segments, and input/output bit width. You can easily change the `def sigmoid` function and see the results.
 
-With default inputs, you will see results similar to Fig. 2\
+This code gives you the slopes and y-intercepts of the straight lines that can be used to develop a `.vhd` file in FPGA.
+
+With default inputs, you will see results similar to Fig. 2 for the Sigmoid function\
 \
 ![Fig_2](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
+
+Notably, this figure is shifted down by `1/2` for symmetry.
+
+The results are similar to Fig. 3 for the Sigmoid function\
+\
+![Fig_3](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
+
 
 ### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvment.
