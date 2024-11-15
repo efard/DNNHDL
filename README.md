@@ -20,7 +20,7 @@ In this technique, nonlinear AFs are transformed into straight horizontal lines.
 Or (in Linux):\
 `python sig_tanh_gen.py\`
 
-With default inputs, you will see results similar to Fig. 1
+With default inputs, you will see results similar to Fig. 1.
 
 ![Fig_1](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
 Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in current folder.\
