@@ -40,7 +40,7 @@ With default inputs, you will see results similar to Fig. 2 for the Sigmoid func
 
 Notably, this Semi-sigmoid is similar to the original Sigmoid but shifted down by `1/2` for symmetry.
 
-You can also see the absolute values like the following figure if you uncomment the corresponding line at the bottom of the code.\
+You can also see the absolute values like the following figure if you uncomment the corresponding line at the bottom of the code. Sigmoid Alpha and Beta are PWL approximations of the Sigmoid that are optimized for Mean Square Error (MSE) and Maximum Absolute Error (MXE), respectively.\
 \
 ![pwl_2](https://github.com/user-attachments/assets/33f4d390-10cf-4656-90f2-442a616d3f25)\
 
