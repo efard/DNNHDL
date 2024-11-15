@@ -16,7 +16,7 @@ In this technique, nonlinear AFs are transformed into straight horizontal lines.
 1. Clone the project in a folder and open it.
 2. Set your values in the "Arbitrary inputs" section of the "sig_tanh_gen.py" file.
 3. Run (in Windows):\
-`py .\sig_tanh_gen.py\`
+`py .\sig_tanh_gen.py\`\
 Or (in Linux):\
 `python sig_tanh_gen.py\`
 
