@@ -9,7 +9,7 @@ Python\
 Numpy\
 Matplotlib
 
-## LUT-based AFs
+## 1. LUT-based AFs
 In this technique, nonlinear AFs are transformed into straight horizontal lines. This method is famous for its simplicity and computation. However, it lacks enough accuracy and normally its absolute error is higher than other methods with the same number of segments.
 
 ### Steps
@@ -26,7 +26,7 @@ With default inputs, you will see results similar to Fig. 1.
 Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in current folder.\
 You can play with Arbitrary inputs and get your custom VHDL file.
 
-## PWL-based AFs
+## 2. PWL-based AFs
 In this strategy, each segment of the main AF is transformed into straight lines and each straight line has its slope and y-intercept. This method is more resource-hungry than LUT-based and gives comparatively higher accuracy instead. `POT_PWL.py` is written scalable and you can change the input interval, number of segments, and input/output bit width. You can easily change the `def sigmoid` function and see the results.
 
 This code gives you the slopes and y-intercepts of the straight lines that can be used to develop a `.vhd` file in FPGA.
