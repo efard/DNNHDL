@@ -44,4 +44,4 @@ You can also see the absolute error values like the following figure if you unco
 ![pwl_2](https://github.com/user-attachments/assets/33f4d390-10cf-4656-90f2-442a616d3f25)
 
 
-### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvment.
+### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvement!
