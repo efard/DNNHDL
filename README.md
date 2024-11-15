@@ -34,15 +34,15 @@ This code gives you the slopes and y-intercepts of the straight lines that can b
 ### Steps
 Run `POT_PWL.py` similar to the steps of the previous section.
 
-With default inputs, you will see results similar to Fig. 2 for the Sigmoid function\
+With default inputs, you will see results similar to Fig. 2 for the Sigmoid function.\
 \
 ![pwl_1](https://github.com/user-attachments/assets/90e0a443-f948-4551-aa4a-0aced846b538)\
 
 Notably, this figure is shifted down by `1/2` for symmetry.
 
-The results are similar to Fig. 3 for the Sigmoid function\
+The results are similar to Fig. 3 for the Tanh function.\
 \
-![Fig_3](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
+![pwl_1_tanh](https://github.com/user-attachments/assets/6981f9fe-c829-4ccb-9f1c-a392a862309d)\
 
 
 ### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvment.
