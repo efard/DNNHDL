@@ -5,8 +5,8 @@ This project's initial goal is to simplify VHDL code generation for DNNs. It now
 In the first section, which is based on LUT-based AFs, you will learn how to generate a `.vhd` file for those AFs by Python. The second section is more advanced and based on Piecewise-Linear (PWL) approximation technique.
 
 ## Prerequisites
-Python
-Numpy
+Python\
+Numpy\
 Matplotlib
 
 ## LUT-based AFs
