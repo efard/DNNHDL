@@ -23,8 +23,8 @@ Or (in Linux):\
 With default inputs, you will see results similar to Fig. 1.
 
 ![Fig_1](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
-Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in current folder.\
-You can play with Arbitrary inputs and get your custom VHDL file.
+Also, you can see `generated_sig.vhd` and `generated_tanh.vhd` files in current folder.\
+You can play with arbitrary inputs and get your custom VHDL file.
 
 ## 2. PWL-based AFs
 In this strategy, each segment of the main AF is transformed into straight lines and each straight line has its slope and y-intercept. This method is more resource-hungry than LUT-based and gives comparatively higher accuracy instead. `POT_PWL.py` is written scalable and you can change the input interval, number of segments, and input/output bit width. You can easily change the `def sigmoid` function and see the results.
