@@ -40,9 +40,9 @@ With default inputs, you will see results similar to Fig. 2 for the Sigmoid func
 
 Notably, this figure is shifted down by `1/2` for symmetry.
 
-The results are similar to Fig. 3 for the Tanh function.\
+You can also see the absolute values like the following figure if you uncomment the corresponding line at the bottom of the code.\
 \
-![pwl_1_tanh](https://github.com/user-attachments/assets/6981f9fe-c829-4ccb-9f1c-a392a862309d)\
+![pwl_2](https://github.com/user-attachments/assets/33f4d390-10cf-4656-90f2-442a616d3f25)\
 
 
 ### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvment.
