@@ -36,7 +36,7 @@ Run `POT_PWL.py` similar to the steps of the previous section.
 
 With default inputs, you will see results similar to Fig. 2 for the Sigmoid function\
 \
-![Fig_2](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
+![Fig_2][pwl_1](https://github.com/user-attachments/assets/90e0a443-f948-4551-aa4a-0aced846b538)\
 
 Notably, this figure is shifted down by `1/2` for symmetry.
 
