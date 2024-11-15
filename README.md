@@ -39,7 +39,7 @@ With default inputs, you will see results similar to Fig. 2 for the Sigmoid func
 ![pwl_1](https://github.com/user-attachments/assets/90e0a443-f948-4551-aa4a-0aced846b538)
 \
 
-You can also see the absolute values like the following figure if you uncomment the corresponding line at the bottom of the code. \
+You can also see the absolute error values like the following figure if you uncomment the corresponding line at the bottom of the code. \
 \
 ![pwl_2](https://github.com/user-attachments/assets/33f4d390-10cf-4656-90f2-442a616d3f25)
 \
