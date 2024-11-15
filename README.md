@@ -21,7 +21,7 @@ Or (in Linux):\
 `python sig_tanh_gen.py\`
 
 With default inputs, you will see results similar to Fig. 1\
-\
+
 ![Fig_1](https://user-images.githubusercontent.com/43655559/201485061-c8a6c6ea-5281-4e9f-9c5f-31f642b409bf.png)\
 Also, you can see “generated_sig.vhd” and “generated_tanh.vhd” files in current folder.\
 You can play with Arbitrary inputs and get your custom VHDL file.
@@ -35,14 +35,13 @@ This code gives you the slopes and y-intercepts of the straight lines that can b
 Run `POT_PWL.py` similar to the steps of the previous section.
 
 With default inputs, you will see results similar to Fig. 2 for the Sigmoid function. Notably, this Semi-sigmoid is similar to the original Sigmoid but shifted down by `1/2` for symmetry. Sigmoid Alpha and Beta are PWL approximations of the Sigmoid that are optimized for Mean Square Error (MSE) and Maximum Absolute Error (MXE), respectively.\
-\
+
 ![pwl_1](https://github.com/user-attachments/assets/90e0a443-f948-4551-aa4a-0aced846b538)
 
 
 You can also see the absolute error values like the following figure if you uncomment the corresponding line at the bottom of the code. \
 
 ![pwl_2](https://github.com/user-attachments/assets/33f4d390-10cf-4656-90f2-442a616d3f25)
-\
 
 
 ### NB: If you find this project useful, I would appreciate your citing this repo. I would also be happy to hear any suggestions for improvment.
