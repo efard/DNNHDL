@@ -34,7 +34,7 @@ This code gives you the slopes and y-intercepts of the straight lines that can b
 ### Steps
 Run `POT_PWL.py` similar to the steps of the previous section.
 
-With default inputs, you will see results similar to Fig. 2 for the Sigmoid function. Notably, this Semi-sigmoid is similar to the original Sigmoid but shifted down by `1/2` for symmetry. Sigmoid Alpha and Beta are PWL approximations of the Sigmoid that are optimized for Mean Square Error (MSE) and Maximum Absolute Error (MXE), respectively.\
+With default inputs, you will see results similar to Fig. 2 for the Sigmoid function. Notably, this Semi-sigmoid is similar to the original Sigmoid but shifted down by `1/2` for symmetry. Sigmoid Alpha and Beta are PWL approximations of the Sigmoid that are optimized for Mean Square Error (MSE) and Maximum Absolute Error (MXE), respectively.
 
 ![pwl_1](https://github.com/user-attachments/assets/90e0a443-f948-4551-aa4a-0aced846b538)
 
