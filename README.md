@@ -16,9 +16,9 @@ In this technique, nonlinear AFs are transformed into straight horizontal lines.
 1. Clone the project in a folder and open it.
 2. Set your values in the "Arbitrary inputs" section of the "sig_tanh_gen.py" file.
 3. Run (in Windows):\
-py .\sig_tanh_gen.py\
+`py .\sig_tanh_gen.py\`
 Or (in Linux):\
-python3 sig_tanh_gen.py\
+`python sig_tanh_gen.py\`
 
 With default inputs, you will see results similar to Fig. 1\
 \
@@ -30,6 +30,9 @@ You can play with Arbitrary inputs and get your custom VHDL file.
 In this strategy, each segment of the main AF is transformed into straight lines and each straight line has its slope and y-intercept. This method is more resource-hungry than LUT-based and gives comparatively higher accuracy instead. `POT_PWL.py` is written scalable and you can change the input interval, number of segments, and input/output bit width. You can easily change the `def sigmoid` function and see the results.
 
 This code gives you the slopes and y-intercepts of the straight lines that can be used to develop a `.vhd` file in FPGA.
+
+### Steps
+Run `POT_PWL.py` similar to the steps of the previous section.
 
 With default inputs, you will see results similar to Fig. 2 for the Sigmoid function\
 \
