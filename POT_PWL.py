@@ -153,6 +153,11 @@ print()
 print("POT of slopes      :", slopes_sigmoid_POT[:-1])
 print("Y-intercepts for \U0001D6FC :", lat_sigmoid_POT[:-1])
 print("Y-intercepts for \U0001D6FD :", lat_sigmoid_POT_beta)
+print()
+print(f"Quantized values by 2^{bw_total}:")
+print("POT of slopes      :", [int(np.log2(a*(2**bw_total))) for a in slopes_sigmoid_POT[:-1]])
+print("Y-intercepts for \U0001D6FC :", [int(a*(2**bw_total)+(2**(bw_total-1))) for a in lat_sigmoid_POT[:-1]])
+print("Y-intercepts for \U0001D6FD :", [int(a*(2**bw_total)+(2**(bw_total-1))) for a in lat_sigmoid_POT_beta])
 
 ###################################################################################
 # Plot results
